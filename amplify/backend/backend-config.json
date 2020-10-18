@@ -1,5 +1,12 @@
 {
-  "auth": {},
+  "auth": {
+    "dishbotbd3ef0e6": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
   "hosting": {
     "amplifyhosting": {
       "service": "amplifyhosting",
