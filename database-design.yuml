@@ -1,0 +1,28 @@
+// {type:class}
+// {direction:topDown}
+// {generate:true}
+
+// [note: You can stick notes on diagrams too!{bg:cornsilk}]
+// [Customer]<>1-orders 0..*>[Order]
+// [Order]++*-*>[LineItem]
+// [Order]-1>[DeliveryMethod]
+// [Order]*-*>[Product|EAN_Code|promo_price()]
+// [Category]<->[Product]
+// [DeliveryMethod]^[National]
+// [DeliveryMethod]^[International]
+
+[House|currentDishwasherId: string;]
+[Dishwasher|houseId: string;|name: string;]
+[User]
+[GroupMeGroup|houseId: string;|groupMeGroupId: string;]
+[GroupMeUser|userId: string;|groupMeAuthId: string;]
+[FinePeriod|houseId: string;|order: number;|duration: number;|fineAmount: number;|isFinal: boolean;]
+
+[GroupMeGroup]-[note: Not every group discovered by the user while authenticated will be saved to the database]
+[User]<->[GroupMeUser]
+[User]-[note: Users are supplied by AWS Cognito]
+[House]+-[Dishwasher]
+[House]+-[FinePeriod]
+[GroupMeGroup]-.->[GroupMeUser]
+[GroupMeGroup]<->[House]
+[note: Notice that GroupMeGroupMembers could've been added but I decided not to model that]
