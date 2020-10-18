@@ -2,6 +2,7 @@
   "name": "dishbot-amplify",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://dishbot.net",
   "dependencies": {
     "@aws-amplify/ui-react": "^0.2.24",
     "@reduxjs/toolkit": "^1.2.5",
