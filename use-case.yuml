@@ -2,7 +2,6 @@
 // {direction:leftToRight}
 // {generate:true}
 
-// (note: figure 1.2{bg:beige})
 [House Organizer]
 [Dishwasher]
 (Login to GroupMe)
@@ -16,6 +15,7 @@
 (View Fines)
 (View House)
 (See who next Dishwasher is)
+(Remove Dishwasher)
 
 [House Organizer]^[Dishwasher]
 [House Organizer]-(Adding a Dishwasher to a House)
@@ -34,3 +34,5 @@
 (See GroupMe groups)>(Login to GroupMe)
 (Create a House from a GroupMe group)<(See GroupMe groups)
 (Manage House)<(View House)
+[House Organizer]-(Remove Dishwasher)
+(Remove Dishwasher)<(Manage House)
