@@ -1,0 +1,36 @@
+// {type:usecase}
+// {direction:leftToRight}
+// {generate:true}
+
+// (note: figure 1.2{bg:beige})
+[House Organizer]
+[Dishwasher]
+(Login to GroupMe)
+(Login to Dishbot)
+(Adding a Dishwasher to a House)
+(Create a House from a GroupMe group)
+(See GroupMe groups)
+(See who is current Dishwasher)
+(Change order of Dishwashers)
+(Manage House)
+(View Fines)
+(View House)
+(See who next Dishwasher is)
+
+[House Organizer]^[Dishwasher]
+[House Organizer]-(Adding a Dishwasher to a House)
+[House Organizer]-(Create a House from a GroupMe group)
+[Dishwasher]-(See who is current Dishwasher)
+(Create a House from a GroupMe group)>(Login to Dishbot)
+[House Organizer]-(Change order of Dishwashers)
+(Change order of Dishwashers)<(Manage House)
+(Adding a Dishwasher to a House)<(Manage House)
+(Manage House)>(Login to Dishbot)
+(View Fines)<(View House)
+(Dishwasher)-(View Fines)
+(See who is current Dishwasher)<(View House)
+(See who next Dishwasher is)<(View House)
+[Dishwasher]-(See who next Dishwasher is)
+(See GroupMe groups)>(Login to GroupMe)
+(Create a House from a GroupMe group)<(See GroupMe groups)
+(Manage House)<(View House)
