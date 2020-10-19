@@ -1,15 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import useQuery from "hooks/useQuery";
-import useGroupMeGroups from "hooks/useGroupMeGroups";
-import GroupMeGroup from "./components/GroupMeGroup";
-import styles from "./GroupMeIngress.module.css";
+import GroupMeGroupSelector from "components/GroupMeGroupSelector";
+import { getGroupsNamespace } from "api/group-me";
 
 const GroupMeIngress = () => {
   const params = useQuery();
   const token = params.get("access_token");
-  const { groups, isLoading, error } = useGroupMeGroups(token || "");
-  if (isLoading) return <p>Loading groups...</p>;
-  if (error) return <p>Error: {error.message}</p>;
+  const [group, setGroup] = useState<getGroupsNamespace.Group>();
   return (
     <>
       <p>This is your access token for GroupMe: {token}</p>
@@ -17,11 +14,9 @@ const GroupMeIngress = () => {
         This will be saved to your user, so that when you sign into Dishbot you
         won't have to sign into GroupMe anymore.
       </p>
-      <div className={styles.groups}>
-        {groups.map((group) => (
-          <GroupMeGroup key={group.id} group={group} onSelect={() => {}} />
-        ))}
-      </div>
+      {token && !group && (
+        <GroupMeGroupSelector accessToken={token} onSelect={setGroup} />
+      )}
     </>
   );
 };
