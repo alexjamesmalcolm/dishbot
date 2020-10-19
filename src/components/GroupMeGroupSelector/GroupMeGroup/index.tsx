@@ -1,6 +1,5 @@
 import React from "react";
 import { getGroupsNamespace } from "api/group-me";
-import Button from "react-bootstrap/Button";
 
 const GroupMeGroup = ({
   group,
@@ -12,7 +11,7 @@ const GroupMeGroup = ({
   <div>
     <h2>{group.name}</h2>
     <img src={group.image_url} alt={`group of ${group.name}`} width="100" />
-    <Button onClick={onSelect}>Select</Button>
+    <button onClick={onSelect}>Select</button>
   </div>
 );
 
