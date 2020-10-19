@@ -1,20 +1,7 @@
 import React, { useState } from "react";
 import useCurrentCredentials from "hooks/useCurrentCredentials";
-
-const CreateAccount = ({
-  onSwitchToSignIn,
-}: {
-  onSwitchToSignIn: () => void;
-}) => {
-  return <div>Creating account</div>;
-};
-const SignIn = ({
-  onSwitchToCreateAccount,
-}: {
-  onSwitchToCreateAccount: () => void;
-}) => {
-  return <div>Signing in</div>;
-};
+import SignIn from "./components/SignIn";
+import CreateAccount from "./components/CreateAccount";
 
 const Authenticator = ({ children }: { children: JSX.Element }) => {
   const [signInForm, setSignInForm] = useState<"sign-in" | "create-account">(
