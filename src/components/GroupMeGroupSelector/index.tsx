@@ -1,6 +1,6 @@
 import React from "react";
 import useGroupMeGroups from "hooks/useGroupMeGroups";
-import GroupMeGroup from "./components/GroupMeGroup";
+import GroupMeGroup from "./GroupMeGroup";
 import { getGroupsNamespace } from "api/group-me";
 
 const GroupMeGroupSelector = ({
