@@ -2,6 +2,7 @@ import React from "react";
 import useQuery from "hooks/useQuery";
 import useGroupMeGroups from "hooks/useGroupMeGroups";
 import GroupMeGroup from "./components/GroupMeGroup";
+import styles from "./GroupMeIngress.module.css";
 
 const GroupMeIngress = () => {
   const params = useQuery();
@@ -16,9 +17,11 @@ const GroupMeIngress = () => {
         This will be saved to your user, so that when you sign into Dishbot you
         won't have to sign into GroupMe anymore.
       </p>
-      {groups.map((group) => (
-        <GroupMeGroup key={group.id} group={group} onSelect={() => {}} />
-      ))}
+      <div className={styles.groups}>
+        {groups.map((group) => (
+          <GroupMeGroup key={group.id} group={group} onSelect={() => {}} />
+        ))}
+      </div>
     </>
   );
 };
