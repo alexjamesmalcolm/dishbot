@@ -13,7 +13,7 @@ const useRoutes = () =>
         path: "/",
         name: "Home",
         Component: LandingPage,
-        needsAuth: false,
+        needsAuth: true,
         isInNav: true,
       },
       {

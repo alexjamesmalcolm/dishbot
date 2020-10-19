@@ -1,7 +1,7 @@
 import React, { Suspense, useMemo } from "react";
 import useRoutes from "hooks/useRoutes";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { AmplifyAuthenticator } from "@aws-amplify/ui-react/lib-esm/components";
+import Authenticator from "components/Authenticator";
 
 const AuthWrapper = ({
   needsAuth,
@@ -11,12 +11,7 @@ const AuthWrapper = ({
   children: JSX.Element;
 }) =>
   useMemo(
-    () =>
-      needsAuth ? (
-        <AmplifyAuthenticator>{children}</AmplifyAuthenticator>
-      ) : (
-        children
-      ),
+    () => (needsAuth ? <Authenticator>{children}</Authenticator> : children),
     [children, needsAuth]
   );
 
