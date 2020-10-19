@@ -25,11 +25,13 @@ const App = () => {
   return (
     <Router>
       <nav>
-        {routes.map(({ path, name }) => (
-          <Link key={path} to={path}>
-            {name}
-          </Link>
-        ))}
+        {routes
+          .filter((route) => route.isInNav)
+          .map(({ path, name }) => (
+            <Link key={path} to={path}>
+              {name}
+            </Link>
+          ))}
       </nav>
       <Switch>
         {routes.map(({ path, Component, needsAuth }) => (

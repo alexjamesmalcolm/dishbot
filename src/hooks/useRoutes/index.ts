@@ -8,19 +8,33 @@ const GroupMeIngress = lazy(() => import("pages/GroupMeIngress"));
 const useRoutes = () =>
   useMemo<Route[]>(
     () => [
-      { path: "/", name: "Home", Component: Home, needsAuth: false },
-      { path: "/user", name: "Profile", Component: User, needsAuth: true },
+      {
+        path: "/",
+        name: "Home",
+        Component: Home,
+        needsAuth: false,
+        isInNav: true,
+      },
+      {
+        path: "/user",
+        name: "Profile",
+        Component: User,
+        needsAuth: true,
+        isInNav: true,
+      },
       {
         path: "/group-me-sign-in",
         name: "Sign Into Group Me",
         Component: SignIntoGroupMe,
         needsAuth: false,
+        isInNav: false,
       },
       {
         path: "/group-me-ingress",
         name: "GroupMe Ingress",
         Component: GroupMeIngress,
         needsAuth: false,
+        isInNav: false,
       },
     ],
     []
@@ -31,6 +45,7 @@ interface Route {
   needsAuth: boolean;
   Component: LazyExoticComponent<() => JSX.Element>;
   name: string;
+  isInNav: boolean;
 }
 
 export default useRoutes;
