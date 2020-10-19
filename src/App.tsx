@@ -38,7 +38,9 @@ const App = () => {
           <Route key={path} exact path={path}>
             <AuthWrapper needsAuth={needsAuth}>
               <Suspense fallback={<p>Loading...</p>}>
-                <Component />
+                <main>
+                  <Component />
+                </main>
               </Suspense>
             </AuthWrapper>
           </Route>
