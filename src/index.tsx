@@ -6,13 +6,16 @@ import { Provider } from "react-redux";
 import * as serviceWorker from "./serviceWorker";
 import Amplify from "aws-amplify";
 import awsExports from "./aws-exports";
+import ThemeProvider from "app/theme-provider";
 
 Amplify.configure(awsExports);
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
+      <ThemeProvider>
+        <App />
+      </ThemeProvider>
     </Provider>
   </React.StrictMode>,
   document.getElementById("root")

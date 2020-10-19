@@ -1,5 +1,6 @@
 import React, { Suspense, useMemo } from "react";
 import useRoutes from "hooks/useRoutes";
+import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { AmplifyAuthenticator } from "@aws-amplify/ui-react";
 
