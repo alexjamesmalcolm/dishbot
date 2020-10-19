@@ -1,7 +1,8 @@
 import { lazy, LazyExoticComponent, useMemo } from "react";
 
-const Home = lazy(() => import("pages/Home"));
-const User = lazy(() => import("pages/User"));
+const LandingPage = lazy(() => import("pages/LandingPage"));
+const FindHouse = lazy(() => import("pages/FindHouse"));
+const HouseDetails = lazy(() => import("pages/HouseDetails"));
 const SignIntoGroupMe = lazy(() => import("pages/SignIntoGroupMe"));
 const GroupMeIngress = lazy(() => import("pages/GroupMeIngress"));
 
@@ -11,16 +12,23 @@ const useRoutes = () =>
       {
         path: "/",
         name: "Home",
-        Component: Home,
+        Component: LandingPage,
         needsAuth: false,
         isInNav: true,
       },
       {
-        path: "/user",
-        name: "Profile",
-        Component: User,
-        needsAuth: true,
+        path: "/find-house",
+        name: "Find House",
+        Component: FindHouse,
+        needsAuth: false,
         isInNav: true,
+      },
+      {
+        path: "/house/:houseId",
+        name: "House",
+        Component: HouseDetails,
+        needsAuth: false,
+        isInNav: false,
       },
       {
         path: "/group-me-sign-in",
