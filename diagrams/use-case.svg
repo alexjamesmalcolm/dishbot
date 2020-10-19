@@ -12,6 +12,17 @@
 <!-- A0 -->
 <g id="node1" class="node">
 <title>A0</title>
+<polygon fill="none" stroke="#000000" points="115.033,-125 13.103,-125 13.103,-69 121.033,-69 121.033,-119 115.033,-125"/>
+<polyline fill="none" stroke="#000000" points="115.033,-125 115.033,-119 "/>
+<polyline fill="none" stroke="#000000" points="121.033,-119 115.033,-119 "/>
+<text text-anchor="middle" x="67.068" y="-112" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Green represents</text>
+<text text-anchor="middle" x="67.068" y="-100" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">finished features,</text>
+<text text-anchor="middle" x="67.068" y="-88" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">blue represents in</text>
+<text text-anchor="middle" x="67.068" y="-76" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">progress features</text>
+</g>
+<!-- A1 -->
+<g id="node2" class="node">
+<title>A1</title>
 <g transform="translate(67.068,-176)" style="fill:none;stroke:black;stroke-width:1px"><circle cx="0" cy="-20" r="7.5" />
                 <line x1="0" y1="-12.5" x2="0" y2="5" />
                 <line x1="-15" y1="-5" x2="15" y2="-5" />
@@ -19,9 +30,9 @@
                 <line x1="0" y1="5" x2="15" y2="17" /></g>
 <text text-anchor="middle" x="67.068" y="-151" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">House Organizer</text>
 </g>
-<!-- A1 -->
-<g id="node2" class="node">
-<title>A1</title>
+<!-- A2 -->
+<g id="node3" class="node">
+<title>A2</title>
 <g transform="translate(472.3359,-33)" style="fill:none;stroke:black;stroke-width:1px"><circle cx="0" cy="-20" r="7.5" />
                 <line x1="0" y1="-12.5" x2="0" y2="5" />
                 <line x1="-15" y1="-5" x2="15" y2="-5" />
@@ -29,259 +40,259 @@
                 <line x1="0" y1="5" x2="15" y2="17" /></g>
 <text text-anchor="middle" x="472.3359" y="-8" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Dishwasher</text>
 </g>
-<!-- A0&#45;&gt;A1 -->
+<!-- A1&#45;&gt;A2 -->
 <g id="edge1" class="edge">
-<title>A0&#45;&gt;A1</title>
+<title>A1&#45;&gt;A2</title>
 <path fill="none" stroke="#000000" d="M129.9527,-142.8796C147.4716,-133.677 166.7472,-124.328 185.136,-117 259.1771,-87.4942 347.9527,-64.1981 407.0112,-50.3045"/>
 <polygon fill="none" stroke="#000000" points="408.009,-53.6659 416.9541,-47.9882 406.4208,-46.8484 408.009,-53.6659"/>
-</g>
-<!-- A4 -->
-<g id="node5" class="node">
-<title>A4</title>
-<ellipse fill="none" stroke="#000000" cx="472.3359" cy="-226" rx="60.7155" ry="18"/>
-<text text-anchor="middle" x="472.3359" y="-223" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Add Dishwasher</text>
-</g>
-<!-- A0&#45;&gt;A4 -->
-<g id="edge2" class="edge">
-<title>A0&#45;&gt;A4</title>
-<path fill="none" stroke="#000000" d="M134.4119,-178.6246C196.7381,-179.2996 291.7563,-182.9305 373.0207,-197 393.0205,-200.4626 414.7148,-206.5187 432.7108,-212.2041"/>
 </g>
 <!-- A5 -->
 <g id="node6" class="node">
 <title>A5</title>
-<ellipse fill="none" stroke="#000000" cx="239.0634" cy="-247" rx="53.8548" ry="18"/>
-<text text-anchor="middle" x="239.0634" y="-244" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Create House</text>
+<ellipse fill="none" stroke="#000000" cx="472.3359" cy="-226" rx="60.7155" ry="18"/>
+<text text-anchor="middle" x="472.3359" y="-223" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Add Dishwasher</text>
 </g>
-<!-- A0&#45;&gt;A5 -->
-<g id="edge3" class="edge">
-<title>A0&#45;&gt;A5</title>
-<path fill="none" stroke="#000000" d="M134.5515,-205.6802C158.2678,-215.0567 183.9562,-225.2129 203.9302,-233.1098"/>
-</g>
-<!-- A8 -->
-<g id="node9" class="node">
-<title>A8</title>
-<ellipse fill="none" stroke="#000000" cx="472.3359" cy="-285" rx="70.768" ry="22.7556"/>
-<text text-anchor="middle" x="472.3359" y="-288" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Change order of</text>
-<text text-anchor="middle" x="472.3359" y="-276" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Dishwashers</text>
-</g>
-<!-- A0&#45;&gt;A8 -->
-<g id="edge5" class="edge">
-<title>A0&#45;&gt;A8</title>
-<path fill="none" stroke="#000000" d="M105.1303,-215.0461C127.1858,-234.488 156.2391,-257.7555 185.136,-274 239.8635,-304.7654 256.1495,-311.171 317.9907,-322 342.082,-326.2186 348.9508,-326.338 373.0207,-322 393.1208,-318.3775 414.4619,-310.9402 432.189,-303.6774"/>
-</g>
-<!-- A13 -->
-<g id="node14" class="node">
-<title>A13</title>
-<ellipse fill="none" stroke="#000000" cx="472.3359" cy="-344" rx="72.0934" ry="18"/>
-<text text-anchor="middle" x="472.3359" y="-341" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Remove Dishwasher</text>
-</g>
-<!-- A0&#45;&gt;A13 -->
-<g id="edge17" class="edge">
-<title>A0&#45;&gt;A13</title>
-<path fill="none" stroke="#000000" d="M93.7911,-215.2825C115.9191,-243.4781 149.4233,-282.1743 185.136,-309 237.6947,-348.4796 253.9498,-359.1735 317.9907,-374 341.8183,-379.5165 348.8256,-377.5745 373.0207,-374 392.9772,-371.0517 414.4813,-364.9409 432.3591,-358.9992"/>
-</g>
-<!-- A14 -->
-<g id="node15" class="node">
-<title>A14</title>
-<ellipse fill="none" stroke="#000000" cx="472.3359" cy="-108" rx="60.8972" ry="18"/>
-<text text-anchor="middle" x="472.3359" y="-105" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Set Fine amount</text>
-</g>
-<!-- A0&#45;&gt;A14 -->
-<g id="edge26" class="edge">
-<title>A0&#45;&gt;A14</title>
-<path fill="none" stroke="#000000" d="M134.4001,-153.3579C150.8047,-147.9015 168.4399,-142.6825 185.136,-139 262.3919,-121.9602 353.4903,-114.1495 412.0361,-110.6639"/>
-</g>
-<!-- A15 -->
-<g id="node16" class="node">
-<title>A15</title>
-<ellipse fill="none" stroke="#000000" cx="472.3359" cy="-167" rx="63.3353" ry="22.7556"/>
-<text text-anchor="middle" x="472.3359" y="-170" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Set time to do</text>
-<text text-anchor="middle" x="472.3359" y="-158" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">dishes</text>
-</g>
-<!-- A0&#45;&gt;A15 -->
-<g id="edge27" class="edge">
-<title>A0&#45;&gt;A15</title>
-<path fill="none" stroke="#000000" d="M134.2007,-163.5621C196.1797,-151.2572 290.7941,-137.4017 373.0207,-146 388.5329,-147.6221 405.1891,-150.6324 420.3444,-153.8772"/>
-</g>
-<!-- A7 -->
-<g id="node8" class="node">
-<title>A7</title>
-<ellipse fill="none" stroke="#000000" cx="725.3232" cy="-36" rx="56.9519" ry="22.7556"/>
-<text text-anchor="middle" x="725.3232" y="-39" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">See current</text>
-<text text-anchor="middle" x="725.3232" y="-27" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Dishwasher</text>
-</g>
-<!-- A1&#45;&gt;A7 -->
-<g id="edge4" class="edge">
-<title>A1&#45;&gt;A7</title>
-<path fill="none" stroke="#000000" d="M527.855,-36C569.454,-36 626.1946,-36 668.1807,-36"/>
-</g>
-<!-- A10 -->
-<g id="node11" class="node">
-<title>A10</title>
-<ellipse fill="none" stroke="#000000" cx="725.3232" cy="-149" rx="46.4762" ry="18"/>
-<text text-anchor="middle" x="725.3232" y="-146" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">View Fines</text>
-</g>
-<!-- A1&#45;&gt;A10 -->
-<g id="edge10" class="edge">
-<title>A1&#45;&gt;A10</title>
-<path fill="none" stroke="#000000" d="M527.8494,-64.3148C562.964,-81.8003 609.5262,-104.2133 651.681,-122 664.2272,-127.2937 678.2086,-132.5716 690.5896,-137.0383"/>
-</g>
-<!-- A12 -->
-<g id="node13" class="node">
-<title>A12</title>
-<ellipse fill="none" stroke="#000000" cx="725.3232" cy="-95" rx="73.7847" ry="18"/>
-<text text-anchor="middle" x="725.3232" y="-92" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">See next Dishwasher</text>
-</g>
-<!-- A1&#45;&gt;A12 -->
-<g id="edge13" class="edge">
-<title>A1&#45;&gt;A12</title>
-<path fill="none" stroke="#000000" d="M527.855,-48.9478C570.6177,-58.9206 629.3807,-72.6249 671.6687,-82.4871"/>
-</g>
-<!-- A2 -->
-<g id="node3" class="node">
-<title>A2</title>
-<ellipse fill="none" stroke="#000000" cx="725.3232" cy="-398" rx="64.9179" ry="18"/>
-<text text-anchor="middle" x="725.3232" y="-395" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Login to GroupMe</text>
-</g>
-<!-- A3 -->
-<g id="node4" class="node">
-<title>A3</title>
-<ellipse fill="none" stroke="#000000" cx="964.2766" cy="-211" rx="60.063" ry="18"/>
-<text text-anchor="middle" x="964.2766" y="-208" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Login to Dishbot</text>
-</g>
-<!-- A9 -->
-<g id="node10" class="node">
-<title>A9</title>
-<ellipse fill="none" stroke="#000000" cx="725.3232" cy="-211" rx="57.7153" ry="18"/>
-<text text-anchor="middle" x="725.3232" y="-208" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Manage House</text>
-</g>
-<!-- A4&#45;&gt;A9 -->
-<g id="edge7" class="edge">
-<title>A4&#45;&gt;A9</title>
-<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M542.1447,-221.8609C581.9837,-219.4988 631.2803,-216.5759 668.695,-214.3576"/>
-<polygon fill="#000000" stroke="#000000" points="531.97,-222.4642 541.6861,-217.3801 536.9612,-222.1682 541.9525,-221.8722 541.9525,-221.8722 541.9525,-221.8722 536.9612,-222.1682 542.2188,-226.3643 531.97,-222.4642 531.97,-222.4642"/>
-<text text-anchor="middle" x="599.166" y="-222" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;extend&gt;&gt;</text>
-</g>
-<!-- A5&#45;&gt;A4 -->
-<g id="edge23" class="edge">
-<title>A5&#45;&gt;A4</title>
-<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M291.4143,-242.2872C324.5469,-239.3045 367.7443,-235.4157 403.6199,-232.1861"/>
-<polygon fill="#000000" stroke="#000000" points="414.0133,-231.2504 404.457,-236.629 409.0334,-231.6988 404.0535,-232.1471 404.0535,-232.1471 404.0535,-232.1471 409.0334,-231.6988 403.65,-227.6652 414.0133,-231.2504 414.0133,-231.2504"/>
-<text text-anchor="middle" x="345.5057" y="-242" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;include&gt;&gt;</text>
+<!-- A1&#45;&gt;A5 -->
+<g id="edge2" class="edge">
+<title>A1&#45;&gt;A5</title>
+<path fill="none" stroke="#000000" d="M134.4119,-178.6246C196.7381,-179.2996 291.7563,-182.9305 373.0207,-197 393.0205,-200.4626 414.7148,-206.5187 432.7108,-212.2041"/>
 </g>
 <!-- A6 -->
 <g id="node7" class="node">
 <title>A6</title>
-<ellipse fill="none" stroke="#000000" cx="472.3359" cy="-398" rx="74.1307" ry="18"/>
-<text text-anchor="middle" x="472.3359" y="-395" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">See GroupMe groups</text>
+<ellipse fill="none" stroke="#000000" cx="239.0634" cy="-247" rx="53.8548" ry="18"/>
+<text text-anchor="middle" x="239.0634" y="-244" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Create House</text>
 </g>
-<!-- A5&#45;&gt;A6 -->
-<g id="edge15" class="edge">
-<title>A5&#45;&gt;A6</title>
-<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M262.749,-272.0523C277.8343,-287.3446 298.1989,-306.8087 317.9907,-322 351.075,-347.3939 360.4472,-352.899 398.0207,-371 407.4195,-375.5279 417.7875,-379.7469 427.7209,-383.4415"/>
-<polygon fill="#000000" stroke="#000000" points="255.3726,-264.4804 265.5739,-268.5032 258.8616,-268.0619 262.3506,-271.6434 262.3506,-271.6434 262.3506,-271.6434 258.8616,-268.0619 259.1273,-274.7835 255.3726,-264.4804 255.3726,-264.4804"/>
-<text text-anchor="middle" x="345.5057" y="-361" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;extend&gt;&gt;</text>
+<!-- A1&#45;&gt;A6 -->
+<g id="edge3" class="edge">
+<title>A1&#45;&gt;A6</title>
+<path fill="none" stroke="#000000" d="M134.5515,-205.6802C158.2678,-215.0567 183.9562,-225.2129 203.9302,-233.1098"/>
 </g>
-<!-- A5&#45;&gt;A8 -->
-<g id="edge25" class="edge">
-<title>A5&#45;&gt;A8</title>
-<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M287.681,-254.9198C319.9025,-260.1687 362.7698,-267.1517 399.0902,-273.0683"/>
-<polygon fill="#000000" stroke="#000000" points="409.1465,-274.7065 398.5531,-277.54 404.2116,-273.9025 399.2766,-273.0986 399.2766,-273.0986 399.2766,-273.0986 404.2116,-273.9025 400.0002,-268.6571 409.1465,-274.7065 409.1465,-274.7065"/>
-<text text-anchor="middle" x="345.5057" y="-271" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;include&gt;&gt;</text>
+<!-- A9 -->
+<g id="node10" class="node">
+<title>A9</title>
+<ellipse fill="none" stroke="#000000" cx="472.3359" cy="-285" rx="70.768" ry="22.7556"/>
+<text text-anchor="middle" x="472.3359" y="-288" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Change order of</text>
+<text text-anchor="middle" x="472.3359" y="-276" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Dishwashers</text>
 </g>
-<!-- A5&#45;&gt;A13 -->
-<g id="edge24" class="edge">
-<title>A5&#45;&gt;A13</title>
-<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M270.0225,-261.9265C284.5175,-268.8085 302.0625,-276.9873 317.9907,-284 353.2031,-299.503 362.1475,-303.0945 398.0207,-317 405.4002,-319.8605 413.2253,-322.8021 420.9209,-325.6431"/>
-<polygon fill="#000000" stroke="#000000" points="430.5561,-329.1743 419.6182,-329.9583 425.8614,-327.4537 421.1667,-325.7332 421.1667,-325.7332 421.1667,-325.7332 425.8614,-327.4537 422.7152,-321.508 430.5561,-329.1743 430.5561,-329.1743"/>
-<text text-anchor="middle" x="345.5057" y="-309" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;include&gt;&gt;</text>
+<!-- A1&#45;&gt;A9 -->
+<g id="edge5" class="edge">
+<title>A1&#45;&gt;A9</title>
+<path fill="none" stroke="#000000" d="M105.1303,-215.0461C127.1858,-234.488 156.2391,-257.7555 185.136,-274 239.8635,-304.7654 256.1495,-311.171 317.9907,-322 342.082,-326.2186 348.9508,-326.338 373.0207,-322 393.1208,-318.3775 414.4619,-310.9402 432.189,-303.6774"/>
 </g>
-<!-- A5&#45;&gt;A14 -->
-<g id="edge21" class="edge">
-<title>A5&#45;&gt;A14</title>
-<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M258.8115,-229.8825C287.6277,-205.6824 343.6993,-161.4725 398.0207,-135 405.3899,-131.4088 413.365,-128.0238 421.2624,-124.9442"/>
-<polygon fill="#000000" stroke="#000000" points="430.8109,-121.346 423.0402,-129.0833 426.1321,-123.1091 421.4533,-124.8723 421.4533,-124.8723 421.4533,-124.8723 426.1321,-123.1091 419.8664,-120.6614 430.8109,-121.346 430.8109,-121.346"/>
-<text text-anchor="middle" x="345.5057" y="-184" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;include&gt;&gt;</text>
+<!-- A14 -->
+<g id="node15" class="node">
+<title>A14</title>
+<ellipse fill="none" stroke="#000000" cx="472.3359" cy="-344" rx="72.0934" ry="18"/>
+<text text-anchor="middle" x="472.3359" y="-341" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Remove Dishwasher</text>
 </g>
-<!-- A5&#45;&gt;A15 -->
-<g id="edge22" class="edge">
-<title>A5&#45;&gt;A15</title>
-<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M275.9619,-233.773C289.2006,-229.0636 304.2498,-223.7517 317.9907,-219 350.4031,-207.7916 386.7487,-195.5314 416.0248,-185.732"/>
-<polygon fill="#000000" stroke="#000000" points="425.6663,-182.5081 417.6095,-189.9471 420.9244,-184.0937 416.1825,-185.6793 416.1825,-185.6793 416.1825,-185.6793 420.9244,-184.0937 414.7554,-181.4116 425.6663,-182.5081 425.6663,-182.5081"/>
-<text text-anchor="middle" x="345.5057" y="-222" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;include&gt;&gt;</text>
+<!-- A1&#45;&gt;A14 -->
+<g id="edge17" class="edge">
+<title>A1&#45;&gt;A14</title>
+<path fill="none" stroke="#000000" d="M93.7911,-215.2825C115.9191,-243.4781 149.4233,-282.1743 185.136,-309 237.6947,-348.4796 253.9498,-359.1735 317.9907,-374 341.8183,-379.5165 348.8256,-377.5745 373.0207,-374 392.9772,-371.0517 414.4813,-364.9409 432.3591,-358.9992"/>
 </g>
-<!-- A6&#45;&gt;A2 -->
-<g id="edge14" class="edge">
-<title>A6&#45;&gt;A2</title>
-<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M546.8721,-398C579.3571,-398 617.3757,-398 649.9543,-398"/>
-<polygon fill="#000000" stroke="#000000" points="660.3268,-398 650.3268,-402.5001 655.3268,-398 650.3268,-398.0001 650.3268,-398.0001 650.3268,-398.0001 655.3268,-398 650.3267,-393.5001 660.3268,-398 660.3268,-398"/>
-<text text-anchor="middle" x="599.166" y="-401" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;include&gt;&gt;</text>
+<!-- A15 -->
+<g id="node16" class="node">
+<title>A15</title>
+<ellipse fill="none" stroke="#000000" cx="472.3359" cy="-108" rx="60.8972" ry="18"/>
+<text text-anchor="middle" x="472.3359" y="-105" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Set Fine amount</text>
+</g>
+<!-- A1&#45;&gt;A15 -->
+<g id="edge26" class="edge">
+<title>A1&#45;&gt;A15</title>
+<path fill="none" stroke="#000000" d="M134.4001,-153.3579C150.8047,-147.9015 168.4399,-142.6825 185.136,-139 262.3919,-121.9602 353.4903,-114.1495 412.0361,-110.6639"/>
+</g>
+<!-- A16 -->
+<g id="node17" class="node">
+<title>A16</title>
+<ellipse fill="none" stroke="#000000" cx="472.3359" cy="-167" rx="63.3353" ry="22.7556"/>
+<text text-anchor="middle" x="472.3359" y="-170" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Set time to do</text>
+<text text-anchor="middle" x="472.3359" y="-158" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">dishes</text>
+</g>
+<!-- A1&#45;&gt;A16 -->
+<g id="edge27" class="edge">
+<title>A1&#45;&gt;A16</title>
+<path fill="none" stroke="#000000" d="M134.2007,-163.5621C196.1797,-151.2572 290.7941,-137.4017 373.0207,-146 388.5329,-147.6221 405.1891,-150.6324 420.3444,-153.8772"/>
+</g>
+<!-- A8 -->
+<g id="node9" class="node">
+<title>A8</title>
+<ellipse fill="none" stroke="#000000" cx="725.3232" cy="-36" rx="56.9519" ry="22.7556"/>
+<text text-anchor="middle" x="725.3232" y="-39" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">See current</text>
+<text text-anchor="middle" x="725.3232" y="-27" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Dishwasher</text>
+</g>
+<!-- A2&#45;&gt;A8 -->
+<g id="edge4" class="edge">
+<title>A2&#45;&gt;A8</title>
+<path fill="none" stroke="#000000" d="M527.855,-36C569.454,-36 626.1946,-36 668.1807,-36"/>
 </g>
 <!-- A11 -->
 <g id="node12" class="node">
 <title>A11</title>
-<ellipse fill="none" stroke="#000000" cx="964.2766" cy="-114" rx="48.827" ry="18"/>
-<text text-anchor="middle" x="964.2766" y="-111" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">View House</text>
+<ellipse fill="none" stroke="#000000" cx="725.3232" cy="-149" rx="46.4762" ry="18"/>
+<text text-anchor="middle" x="725.3232" y="-146" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">View Fines</text>
 </g>
-<!-- A7&#45;&gt;A11 -->
+<!-- A2&#45;&gt;A11 -->
+<g id="edge10" class="edge">
+<title>A2&#45;&gt;A11</title>
+<path fill="none" stroke="#000000" d="M527.8494,-64.3148C562.964,-81.8003 609.5262,-104.2133 651.681,-122 664.2272,-127.2937 678.2086,-132.5716 690.5896,-137.0383"/>
+</g>
+<!-- A13 -->
+<g id="node14" class="node">
+<title>A13</title>
+<ellipse fill="none" stroke="#000000" cx="725.3232" cy="-95" rx="73.7847" ry="18"/>
+<text text-anchor="middle" x="725.3232" y="-92" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">See next Dishwasher</text>
+</g>
+<!-- A2&#45;&gt;A13 -->
+<g id="edge13" class="edge">
+<title>A2&#45;&gt;A13</title>
+<path fill="none" stroke="#000000" d="M527.855,-48.9478C570.6177,-58.9206 629.3807,-72.6249 671.6687,-82.4871"/>
+</g>
+<!-- A3 -->
+<g id="node4" class="node">
+<title>A3</title>
+<ellipse fill="#006400" stroke="#000000" cx="725.3232" cy="-398" rx="64.9179" ry="18"/>
+<text text-anchor="middle" x="725.3232" y="-395" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#ffffff">Login to GroupMe</text>
+</g>
+<!-- A4 -->
+<g id="node5" class="node">
+<title>A4</title>
+<ellipse fill="#0000ff" stroke="#000000" cx="964.2766" cy="-211" rx="60.063" ry="18"/>
+<text text-anchor="middle" x="964.2766" y="-208" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#ffffff">Login to Dishbot</text>
+</g>
+<!-- A10 -->
+<g id="node11" class="node">
+<title>A10</title>
+<ellipse fill="none" stroke="#000000" cx="725.3232" cy="-211" rx="57.7153" ry="18"/>
+<text text-anchor="middle" x="725.3232" y="-208" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Manage House</text>
+</g>
+<!-- A5&#45;&gt;A10 -->
+<g id="edge7" class="edge">
+<title>A5&#45;&gt;A10</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M542.1447,-221.8609C581.9837,-219.4988 631.2803,-216.5759 668.695,-214.3576"/>
+<polygon fill="#000000" stroke="#000000" points="531.97,-222.4642 541.6861,-217.3801 536.9612,-222.1682 541.9525,-221.8722 541.9525,-221.8722 541.9525,-221.8722 536.9612,-222.1682 542.2188,-226.3643 531.97,-222.4642 531.97,-222.4642"/>
+<text text-anchor="middle" x="599.166" y="-222" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;extend&gt;&gt;</text>
+</g>
+<!-- A6&#45;&gt;A5 -->
+<g id="edge23" class="edge">
+<title>A6&#45;&gt;A5</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M291.4143,-242.2872C324.5469,-239.3045 367.7443,-235.4157 403.6199,-232.1861"/>
+<polygon fill="#000000" stroke="#000000" points="414.0133,-231.2504 404.457,-236.629 409.0334,-231.6988 404.0535,-232.1471 404.0535,-232.1471 404.0535,-232.1471 409.0334,-231.6988 403.65,-227.6652 414.0133,-231.2504 414.0133,-231.2504"/>
+<text text-anchor="middle" x="345.5057" y="-242" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;include&gt;&gt;</text>
+</g>
+<!-- A7 -->
+<g id="node8" class="node">
+<title>A7</title>
+<ellipse fill="#006400" stroke="#000000" cx="472.3359" cy="-398" rx="74.1307" ry="18"/>
+<text text-anchor="middle" x="472.3359" y="-395" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#ffffff">See GroupMe groups</text>
+</g>
+<!-- A6&#45;&gt;A7 -->
+<g id="edge15" class="edge">
+<title>A6&#45;&gt;A7</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M262.749,-272.0523C277.8343,-287.3446 298.1989,-306.8087 317.9907,-322 351.075,-347.3939 360.4472,-352.899 398.0207,-371 407.4195,-375.5279 417.7875,-379.7469 427.7209,-383.4415"/>
+<polygon fill="#000000" stroke="#000000" points="255.3726,-264.4804 265.5739,-268.5032 258.8616,-268.0619 262.3506,-271.6434 262.3506,-271.6434 262.3506,-271.6434 258.8616,-268.0619 259.1273,-274.7835 255.3726,-264.4804 255.3726,-264.4804"/>
+<text text-anchor="middle" x="345.5057" y="-361" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;extend&gt;&gt;</text>
+</g>
+<!-- A6&#45;&gt;A9 -->
+<g id="edge25" class="edge">
+<title>A6&#45;&gt;A9</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M287.681,-254.9198C319.9025,-260.1687 362.7698,-267.1517 399.0902,-273.0683"/>
+<polygon fill="#000000" stroke="#000000" points="409.1465,-274.7065 398.5531,-277.54 404.2116,-273.9025 399.2766,-273.0986 399.2766,-273.0986 399.2766,-273.0986 404.2116,-273.9025 400.0002,-268.6571 409.1465,-274.7065 409.1465,-274.7065"/>
+<text text-anchor="middle" x="345.5057" y="-271" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;include&gt;&gt;</text>
+</g>
+<!-- A6&#45;&gt;A14 -->
+<g id="edge24" class="edge">
+<title>A6&#45;&gt;A14</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M270.0225,-261.9265C284.5175,-268.8085 302.0625,-276.9873 317.9907,-284 353.2031,-299.503 362.1475,-303.0945 398.0207,-317 405.4002,-319.8605 413.2253,-322.8021 420.9209,-325.6431"/>
+<polygon fill="#000000" stroke="#000000" points="430.5561,-329.1743 419.6182,-329.9583 425.8614,-327.4537 421.1667,-325.7332 421.1667,-325.7332 421.1667,-325.7332 425.8614,-327.4537 422.7152,-321.508 430.5561,-329.1743 430.5561,-329.1743"/>
+<text text-anchor="middle" x="345.5057" y="-309" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;include&gt;&gt;</text>
+</g>
+<!-- A6&#45;&gt;A15 -->
+<g id="edge21" class="edge">
+<title>A6&#45;&gt;A15</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M258.8115,-229.8825C287.6277,-205.6824 343.6993,-161.4725 398.0207,-135 405.3899,-131.4088 413.365,-128.0238 421.2624,-124.9442"/>
+<polygon fill="#000000" stroke="#000000" points="430.8109,-121.346 423.0402,-129.0833 426.1321,-123.1091 421.4533,-124.8723 421.4533,-124.8723 421.4533,-124.8723 426.1321,-123.1091 419.8664,-120.6614 430.8109,-121.346 430.8109,-121.346"/>
+<text text-anchor="middle" x="345.5057" y="-184" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;include&gt;&gt;</text>
+</g>
+<!-- A6&#45;&gt;A16 -->
+<g id="edge22" class="edge">
+<title>A6&#45;&gt;A16</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M275.9619,-233.773C289.2006,-229.0636 304.2498,-223.7517 317.9907,-219 350.4031,-207.7916 386.7487,-195.5314 416.0248,-185.732"/>
+<polygon fill="#000000" stroke="#000000" points="425.6663,-182.5081 417.6095,-189.9471 420.9244,-184.0937 416.1825,-185.6793 416.1825,-185.6793 416.1825,-185.6793 420.9244,-184.0937 414.7554,-181.4116 425.6663,-182.5081 425.6663,-182.5081"/>
+<text text-anchor="middle" x="345.5057" y="-222" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;include&gt;&gt;</text>
+</g>
+<!-- A7&#45;&gt;A3 -->
+<g id="edge14" class="edge">
+<title>A7&#45;&gt;A3</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M546.8721,-398C579.3571,-398 617.3757,-398 649.9543,-398"/>
+<polygon fill="#000000" stroke="#000000" points="660.3268,-398 650.3268,-402.5001 655.3268,-398 650.3268,-398.0001 650.3268,-398.0001 650.3268,-398.0001 655.3268,-398 650.3267,-393.5001 660.3268,-398 660.3268,-398"/>
+<text text-anchor="middle" x="599.166" y="-401" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;include&gt;&gt;</text>
+</g>
+<!-- A12 -->
+<g id="node13" class="node">
+<title>A12</title>
+<ellipse fill="#0000ff" stroke="#000000" cx="964.2766" cy="-114" rx="48.827" ry="18"/>
+<text text-anchor="middle" x="964.2766" y="-111" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#ffffff">View House</text>
+</g>
+<!-- A8&#45;&gt;A12 -->
 <g id="edge11" class="edge">
-<title>A7&#45;&gt;A11</title>
+<title>A8&#45;&gt;A12</title>
 <path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M783.4835,-50.56C812.4375,-58.241 847.826,-68.2839 878.9955,-79 897.1571,-85.244 917.0307,-93.3247 933.0207,-100.1482"/>
 <polygon fill="#000000" stroke="#000000" points="773.5279,-47.9444 784.3432,-46.1332 778.3638,-49.2149 783.1997,-50.4855 783.1997,-50.4855 783.1997,-50.4855 778.3638,-49.2149 782.0562,-54.8378 773.5279,-47.9444 773.5279,-47.9444"/>
 <text text-anchor="middle" x="851.4805" y="-82" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;extend&gt;&gt;</text>
 </g>
-<!-- A8&#45;&gt;A9 -->
+<!-- A9&#45;&gt;A10 -->
 <g id="edge6" class="edge">
-<title>A8&#45;&gt;A9</title>
+<title>A9&#45;&gt;A10</title>
 <path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M534.361,-266.8574C580.553,-253.346 642.3991,-235.2557 683.0234,-223.3729"/>
 <polygon fill="#000000" stroke="#000000" points="524.755,-269.6672 533.0895,-262.5406 529.5539,-268.2634 534.3529,-266.8597 534.3529,-266.8597 534.3529,-266.8597 529.5539,-268.2634 535.6162,-271.1787 524.755,-269.6672 524.755,-269.6672"/>
 <text text-anchor="middle" x="599.166" y="-257" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;extend&gt;&gt;</text>
 </g>
-<!-- A9&#45;&gt;A3 -->
+<!-- A10&#45;&gt;A4 -->
 <g id="edge8" class="edge">
-<title>A9&#45;&gt;A3</title>
+<title>A10&#45;&gt;A4</title>
 <path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M783.1672,-211C816.3555,-211 858.2812,-211 893.4339,-211"/>
 <polygon fill="#000000" stroke="#000000" points="903.631,-211 893.6311,-215.5001 898.631,-211 893.631,-211.0001 893.631,-211.0001 893.631,-211.0001 898.631,-211 893.631,-206.5001 903.631,-211 903.631,-211"/>
 <text text-anchor="middle" x="851.4805" y="-214" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;include&gt;&gt;</text>
 </g>
-<!-- A9&#45;&gt;A11 -->
+<!-- A10&#45;&gt;A12 -->
 <g id="edge16" class="edge">
-<title>A9&#45;&gt;A11</title>
+<title>A10&#45;&gt;A12</title>
 <path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M770.2992,-192.9362C800.9509,-180.6054 842.4475,-163.8724 878.9955,-149 896.3393,-141.9423 915.6431,-134.0251 931.4926,-127.5082"/>
 <polygon fill="#000000" stroke="#000000" points="760.7485,-196.7771 768.3473,-188.8708 765.3874,-194.9115 770.0264,-193.0459 770.0264,-193.0459 770.0264,-193.0459 765.3874,-194.9115 771.7054,-197.2209 760.7485,-196.7771 760.7485,-196.7771"/>
 <text text-anchor="middle" x="851.4805" y="-174" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;extend&gt;&gt;</text>
 </g>
-<!-- A10&#45;&gt;A11 -->
+<!-- A11&#45;&gt;A12 -->
 <g id="edge9" class="edge">
-<title>A10&#45;&gt;A11</title>
+<title>A11&#45;&gt;A12</title>
 <path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M778.9232,-141.1491C820.9332,-134.9958 878.7511,-126.5271 918.5854,-120.6925"/>
 <polygon fill="#000000" stroke="#000000" points="768.8731,-142.6212 778.1153,-136.7193 773.8203,-141.8965 778.7675,-141.1718 778.7675,-141.1718 778.7675,-141.1718 773.8203,-141.8965 779.4197,-145.6243 768.8731,-142.6212 768.8731,-142.6212"/>
 <text text-anchor="middle" x="851.4805" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;extend&gt;&gt;</text>
 </g>
-<!-- A12&#45;&gt;A11 -->
+<!-- A13&#45;&gt;A12 -->
 <g id="edge12" class="edge">
-<title>A12&#45;&gt;A11</title>
+<title>A13&#45;&gt;A12</title>
 <path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M809.5679,-94.946C832.1589,-95.5442 856.5432,-96.7458 878.9955,-99 892.9062,-100.3967 907.9648,-102.7582 921.5013,-105.1992"/>
 <polygon fill="#000000" stroke="#000000" points="799.3279,-94.7119 809.4281,-90.4417 804.3266,-94.8262 809.3252,-94.9405 809.3252,-94.9405 809.3252,-94.9405 804.3266,-94.8262 809.2224,-99.4393 799.3279,-94.7119 799.3279,-94.7119"/>
 <text text-anchor="middle" x="851.4805" y="-102" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;extend&gt;&gt;</text>
 </g>
-<!-- A13&#45;&gt;A9 -->
+<!-- A14&#45;&gt;A10 -->
 <g id="edge18" class="edge">
-<title>A13&#45;&gt;A9</title>
+<title>A14&#45;&gt;A10</title>
 <path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M525.7469,-325.933C532.8591,-323.1394 539.9902,-320.1337 546.651,-317 604.2536,-289.8993 667.3587,-249.7813 700.9977,-227.4778"/>
 <polygon fill="#000000" stroke="#000000" points="516.1062,-329.6033 523.8508,-321.8397 520.779,-327.8243 525.4519,-326.0453 525.4519,-326.0453 525.4519,-326.0453 520.779,-327.8243 527.053,-330.2508 516.1062,-329.6033 516.1062,-329.6033"/>
 <text text-anchor="middle" x="599.166" y="-307" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;extend&gt;&gt;</text>
 </g>
-<!-- A14&#45;&gt;A9 -->
+<!-- A15&#45;&gt;A10 -->
 <g id="edge19" class="edge">
-<title>A14&#45;&gt;A9</title>
+<title>A15&#45;&gt;A10</title>
 <path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M521.2698,-125.3588C529.7617,-128.4908 538.4845,-131.7844 546.651,-135 597.7762,-155.1309 656.2323,-180.4376 691.9572,-196.1677"/>
 <polygon fill="#000000" stroke="#000000" points="511.8222,-121.9041 522.7595,-121.1122 516.5181,-123.6213 521.214,-125.3385 521.214,-125.3385 521.214,-125.3385 516.5181,-123.6213 519.6685,-129.5648 511.8222,-121.9041 511.8222,-121.9041"/>
 <text text-anchor="middle" x="599.166" y="-170" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;extend&gt;&gt;</text>
 </g>
-<!-- A15&#45;&gt;A9 -->
+<!-- A16&#45;&gt;A10 -->
 <g id="edge20" class="edge">
-<title>A15&#45;&gt;A9</title>
+<title>A16&#45;&gt;A10</title>
 <path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M539.4122,-178.666C581.9169,-186.0585 636.0038,-195.4654 674.8658,-202.2244"/>
 <polygon fill="#000000" stroke="#000000" points="529.4266,-176.9293 540.0498,-174.2095 534.3527,-177.7861 539.2787,-178.6429 539.2787,-178.6429 539.2787,-178.6429 534.3527,-177.7861 538.5076,-183.0763 529.4266,-176.9293 529.4266,-176.9293"/>
 <text text-anchor="middle" x="599.166" y="-195" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt;&lt;extend&gt;&gt;</text>

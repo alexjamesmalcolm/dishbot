@@ -2,18 +2,19 @@
 // {direction:leftToRight}
 // {generate:true}
 
+(note: Green represents finished features, blue represents in progress features)
 [House Organizer]
 [Dishwasher]
-(Login to GroupMe)
-(Login to Dishbot)
+(Login to GroupMe{bg: darkgreen})
+(Login to Dishbot{bg: blue})
 (Add Dishwasher)
 (Create House)
-(See GroupMe groups)
+(See GroupMe groups{bg: darkgreen})
 (See current Dishwasher)
 (Change order of Dishwashers)
 (Manage House)
 (View Fines)
-(View House)
+(View House{bg: blue})
 (See next Dishwasher)
 (Remove Dishwasher)
 (Set Fine amount)
