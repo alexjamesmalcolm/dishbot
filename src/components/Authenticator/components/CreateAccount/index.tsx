@@ -1,3 +1,4 @@
+import useAuth from "hooks/useAuth";
 import React from "react";
 
 const CreateAccount = ({
@@ -5,7 +6,15 @@ const CreateAccount = ({
 }: {
   onSwitchToSignIn: () => void;
 }) => {
-  return <div>Creating account</div>;
+  const {
+    actions: { createAccount },
+  } = useAuth();
+  return (
+    <div>
+      Creating account
+      <button onClick={onSwitchToSignIn}>Sign In</button>
+    </div>
+  );
 };
 
 export default CreateAccount;
