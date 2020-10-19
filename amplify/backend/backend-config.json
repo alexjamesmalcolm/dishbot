@@ -1,6 +1,6 @@
 {
   "auth": {
-    "dishbotbd3ef0e6": {
+    "dishbot595d95b3": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
